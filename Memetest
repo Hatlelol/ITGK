@@ -1,0 +1,8 @@
+farge = 100000
+a = farge // 256
+b = a % 256
+c = farge // b
+d = c % 256
+e = farge // d*b
+
+print(a, b, c, d, d*b, e)
